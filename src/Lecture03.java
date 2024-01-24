@@ -90,20 +90,28 @@ public class Lecture03 {
 
     // Put your answer for #4 here:
       for (int i = 0; i < 4; i++) {
-          for (int j = 1; j <= 5; j++) {
+          for (int j = 0; j <= i; j++) {
               System.out.print("*");
           }
           System.out.println();
       }
 
-    // Put your answer for #5 here:
-      for (int i = 0; i < 5; i++) {
+      System.out.println();
 
+    // Put your answer for #5 here:
+      for (int i = 1; i <= 5; i++) {
+        for (int j = i; j < 5; j++) {
+            System.out.print("*");
+        }
+        System.out.println();
       }
 
     // Put your answer for #6 here:
-      for (int i = 0; i < 7; i++) {
-
+      for (int i = 0; i <= 7; i++) {
+        for (int j = 1; j <= i; j++) {
+            System.out.print(i);
+        }
+        System.out.println();
       }
   }
 
@@ -114,5 +122,4 @@ public class Lecture03 {
      System.out.println("2 times " + i + " = " + i * 2);
     }
    }
-
 }
