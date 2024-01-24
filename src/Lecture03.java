@@ -77,24 +77,41 @@ public class Lecture03 {
     // named "Exercise_21_Finish_Me" down below
     //
     // In order for the auto-graded tests to pass you MUST uncomment the next line:
-    // Exercise_21_Finish_Me(); // _UN_COMMENT THIS LINE!!!!
+    Exercise_21_Finish_Me(); // _UN_COMMENT THIS LINE!!!!
 
     // Put your answer for #25 here:
+    // total 24
+    // total 22
+    // total 19
+    // total 15
+    // total 10
 
     // EXERCISES:
 
     // Put your answer for #4 here:
+      for (int i = 0; i < 4; i++) {
+          for (int j = 1; j <= 5; j++) {
+              System.out.print("*");
+          }
+          System.out.println();
+      }
 
     // Put your answer for #5 here:
+      for (int i = 0; i < 5; i++) {
+
+      }
 
     // Put your answer for #6 here:
+      for (int i = 0; i < 7; i++) {
+
+      }
   }
 
   // In VSCode you can press Ctrl/Cmd + / to uncomment a bunch of lines at once
   // (select the lines, then Ctrl+/)
    public static void Exercise_21_Finish_Me() {
-   for (int i = 0; i < 4; i++) {
-     System.out.println();
+   for (int i = 1; i <= 4; i++) {
+     System.out.println("2 times " + i + " = " + i * 2);
     }
    }
 
