@@ -63,9 +63,15 @@ public class Lecture03 {
 
     // Put your answer for #7 here:
     // Make sure that the code that you write here compiles and runs
+    int age;
+    String gender;
+    double height;
+    int weight;
 
     // Put your answer for #18 here:
     // Make sure that the code that you write here compiles and runs
+    int x = 4;
+    double y = (((12.3 * x - 9.1) * x + 19.3) * x - 4.6) * x + 34.2;
 
     // Put your answer for #21 in the static method
     // named "Exercise_21_Finish_Me" down below
@@ -86,10 +92,10 @@ public class Lecture03 {
 
   // In VSCode you can press Ctrl/Cmd + / to uncomment a bunch of lines at once
   // (select the lines, then Ctrl+/)
-  // public static void Exercise_21_Finish_Me() {
-  // for (int i = /* FINISH ME */) {
-  // System.out.println(/* FINISH ME */);
-  // }
-  // }
+   public static void Exercise_21_Finish_Me() {
+   for (int i = 0; i < 4; i++) {
+     System.out.println();
+    }
+   }
 
 }
